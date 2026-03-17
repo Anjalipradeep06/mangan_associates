@@ -1018,7 +1018,7 @@ h2 {
         flex-direction: column;
         justify-content: center;
         gap: 10%;
-        padding-left: 70px;
+        padding-left: 55px;
     }
 
     .contact-image {
@@ -1032,15 +1032,15 @@ h2 {
     .logo-arrow1 {
         position: relative;
         bottom: 21;
-        left: 341%;
+        left: 290%;
         width: 24px;
 
     }
 
     .logo-arrow2 {
         position: relative;
-        bottom: 23;
-        left: 122%;
+        bottom: 25px;
+        left: 104%;
         width: 24px;
 
     }
@@ -1048,7 +1048,7 @@ h2 {
     .logo-arrow3 {
         position: relative;
         bottom: 26;
-        left: 166%;
+        left: 156%;
         width: 24px;
     }
 
