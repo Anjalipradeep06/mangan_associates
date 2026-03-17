@@ -132,7 +132,7 @@
 .content2 {
     position: relative;
     bottom: 520px;
-    left: 23%;
+    left: 15%;
     width: 700px;
 
 }
@@ -295,7 +295,7 @@ h3 {
 
 .part2-image {
     width: 750px;
-    height: 454px;
+    height: 432px;
 }
 .part2-image img{
     width: 100%;
@@ -317,7 +317,7 @@ h3 {
     position: relative;
     bottom: 67%;
     color: white;
-    left: 43%;
+    left: 40%;
     font-size: 16px;
     font-family: poppins-regular;
 }
