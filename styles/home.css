@@ -306,7 +306,7 @@ h3 {
     display: flex;
     position: relative;
     bottom: 135px;
-    height: 535px;
+    height: 400px;
     justify-content: center;
 
 }
@@ -315,7 +315,7 @@ h3 {
     width: 456px;
     line-height: 2.0em;
     position: relative;
-    bottom: 67%;
+    bottom: 83%;
     color: white;
     left: 40%;
     font-size: 16px;
