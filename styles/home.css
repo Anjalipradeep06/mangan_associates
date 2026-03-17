@@ -280,11 +280,17 @@ h3 {
 }
 
 .part1-image {
-    width: 100%;
+    width: 50%;
     background-image: url(../images/Rectangle\ 21.png);
+}
+.part1-image img{
+    width: 100%;
 }
 
 .part2-image {
+    width: 50%;
+}
+.part2-image img{
     width: 100%;
 }
 
