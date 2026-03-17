@@ -195,6 +195,9 @@ hr {
     width: 50%;
 
 }
+.part1 img{
+    width: 100%;
+}
 
 .part2 {
     width: 50%;
@@ -345,7 +348,7 @@ h4 {
     width: 456px;
     line-height: 2.0em;
     position: relative;
-    bottom: 82%;
+    bottom:110%;
     color: white;
     left: 39%;
     font-size: 16px;
