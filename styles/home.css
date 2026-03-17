@@ -1181,6 +1181,19 @@ h2 {
     .content-image {
         padding: 2%;
     }
+    
+.content-image img{
+    width: 100%;
+
+}
+.content-intro{
+    height: 700px;
+}
+.content-image {
+    width: 512px;
+    height: 700px;
+}
+
 
     .content-intro {
         width: 100%;
