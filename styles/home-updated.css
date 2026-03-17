@@ -116,8 +116,15 @@ h2 {
     font-family: poppins-medium;
 }
 
-.content-intro {
+.content-image img{
     width: 100%;
+
+}
+.content-intro{
+    height: 700px;
+}
+.content-image {
+    width: 1512px;
     height: 700px;
 }
 
@@ -298,13 +305,21 @@ h3 {
 
 
 .part1-image {
-    width: 100%;
+    width: 762px;
     background-image: url(../images/Rectangle\ 21.png);
 }
 
-.part2-image {
+.part1-image img{
     width: 100%;
+}
 
+.part2-image {
+    width: 750px;
+    height: 514px;
+}
+.part2-image img{
+    width: 100%;
+    height: 100%;
 }
 
 h4 {
@@ -330,9 +345,9 @@ h4 {
     width: 456px;
     line-height: 2.0em;
     position: relative;
-    bottom: 95%;
+    bottom: 82%;
     color: white;
-    left: 45%;
+    left: 39%;
     font-size: 16px;
     font-family: poppins-regular;
 }
@@ -1366,7 +1381,7 @@ h2 {
 
     .content2 {
         position: relative;
-        bottom: 65%;
+        bottom: 72%;
         left: 12%;
         width: 400px;
 
@@ -1376,9 +1391,20 @@ h2 {
         padding: 2%;
     }
 
+.content-image img{
+    width: 100%;
+
+}
+
+.content-image {
+    width: 573px;
+    height: 309px;
+}
+
+
     .content-intro {
         width: 100%;
-        height: 250px;
+        height: 291px;
     }
 
 
@@ -1470,7 +1496,7 @@ h2 {
         justify-content: center;
         position: relative;
         bottom: 0px;
-        height: 635px;
+        height: 758px;
         gap: 25px;
         padding-top: 80%;
         /* padding-bottom: 15%; */
