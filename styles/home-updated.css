@@ -24,7 +24,11 @@
 }
 
 
-.container {
+@font-face {
+    font-family: noto-serif;
+    src: url(../fonts/noto-serif-display/NotoSerifDisplay[wdth\,wght].ttf);
+}
+.main-container {
     width: 1920px;
     margin: 0px auto;
 }
@@ -84,7 +88,7 @@
 h2 {
     font-size: 36px;
     line-height: 1.0;
-    font-family: playfair;
+    font-family: noto-serif;
     color: #1A2B56;
 }
 
@@ -124,7 +128,7 @@ h2 {
     height: 700px;
 }
 .content-image {
-    width: 1512px;
+    width: 100%;
     height: 700px;
 }
 
@@ -230,7 +234,7 @@ h3 {
 
     font-size: 36px;
     line-height: 1.0;
-    font-family: playfair;
+    font-family: noto-serif;
     color: #1A2B56;
     text-align: center;
 }
@@ -288,7 +292,7 @@ h3 {
 }
 
 .absolute {
-    width: 380px;
+    width: 100%;
     height: 137px;
     text-align: center;
     background-color: rgba(26, 43, 86, 0.5);
@@ -308,7 +312,7 @@ h3 {
 
 
 .part1-image {
-    width: 762px;
+    width: 100%;
     background-image: url(../images/Rectangle\ 21.png);
 }
 
@@ -317,8 +321,8 @@ h3 {
 }
 
 .part2-image {
-    width: 750px;
-    height: 514px;
+    width:100%;
+    height: 587px;
 }
 .part2-image img{
     width: 100%;
@@ -329,14 +333,14 @@ h4 {
     font-size: 36px;
     line-height: 1.5em;
     font-size: 36px;
-    font-family: playfair;
+    font-family: noto-serif;
 }
 
 .services2 {
     display: flex;
     position: relative;
     bottom: 135px;
-    height: 449px;
+    height: 493px;
     justify-content: center;
 
 }
@@ -392,6 +396,12 @@ h4 {
     bottom: 2px;
     left: 69px;
 
+}
+.quote-image{
+    position: relative;
+    top: 174px;
+    left: 49px;
+    width: 25px;
 }
 
 .head {
@@ -777,11 +787,19 @@ h2 {
     width: 490px;
     position: relative;
     left: 0;
+    font-family: poppins-regular;
 }
 
 .mail-mob {
     display: flex;
     gap: 5px;
+    font-family: poppins-regular;
+}
+.name{
+     font-family: poppins-regular;
+}
+.message{
+     font-family: poppins-regular;
 }
 
 .mail-mob input {
@@ -803,7 +821,7 @@ h2 {
     border-radius: 5px;
     width: 505px;
     height: 35px;
-}
+     font-family: poppins-regular;}
 
 .part-flex {
     width: 100%;
@@ -822,6 +840,7 @@ h2 {
     width: 187px;
     height: 33px;
     text-align: center;
+    font-family: poppins-medium;
 
 }
 
@@ -829,10 +848,12 @@ h2 {
 
 
 @media screen and (max-width: 922px) {
-    .container {
-        width: 921px;
-        margin: 0px auto;
-    }
+  
+
+.main-container {
+    width: 920px;
+    margin: 0px auto;
+}
 
     .header1 {
         width: 100%;
@@ -845,7 +866,7 @@ h2 {
     }
     
 .content-image {
-    width: 885px;
+    width: 100%;
     height: 309px;
 }
 
@@ -980,6 +1001,7 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 2%;
     }
 
     .service-para {
@@ -995,7 +1017,22 @@ h2 {
         display: flex;
         justify-content: center;
         gap: 25px;
-        padding-bottom: 12%;
+        /* padding-bottom: 12%; */
+        padding: 9%;
+    }
+    .service-image1{
+        width: 50%;
+    }
+    
+    .service-image1 img{
+        width: 100%;
+    }
+    
+    .service-image2 img{
+        width: 100%;
+    }
+    .service-image2{
+        width: 50%;
     }
 
     .services2 {
@@ -1005,6 +1042,7 @@ h2 {
         position: relative;
         bottom: 0px;
         height: 900px;
+        padding: 4%;
 
     }
 
@@ -1013,7 +1051,7 @@ h2 {
     }
 
     .part1-image {
-        width: 850px;
+        width: 100%;
         background-image: url(../images/Rectangle\ 21.png);
     }
 
@@ -1036,7 +1074,7 @@ h2 {
     }
 
     .part2-image {
-        width: 850px;
+        width: 100%;
         position: relative;
         bottom: 182px;
         padding-bottom: 13%;
@@ -1050,7 +1088,16 @@ h2 {
         width: 600px;
         height: 270px;
     }
-
+    .body-content{
+        height: 455px;
+        position: relative;
+        bottom: 108px;
+    }
+.quote-image{
+    position: relative;
+    bottom: 12px;
+    left: 0;
+}
     .body-frame img {
         width: 100%;
         height: 100%;
@@ -1059,10 +1106,10 @@ h2 {
     .frame-content {
         position: relative;
         width: 500px;
-        bottom: 227px;
+        bottom: 167px;
         left: 10%;
         line-height: 1.5;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .prev {
@@ -1076,13 +1123,11 @@ h2 {
     .next {
         position: relative;
         left: 103%;
-        bottom: 425px;
+        bottom: 360px;
         width: 100px;
     }
 
-    .body-content {
-        height: 438px;
-    }
+    
 
     .frame-button {
         background-color: #64C6C2;
@@ -1407,14 +1452,14 @@ h2 {
 }
 
 .content-image {
-    width: 573px;
-    height: 309px;
+    width: 100%;
+    height: auto;
 }
 
 
     .content-intro {
         width: 100%;
-        height: 291px;
+        height: 350px;
     }
 
 
@@ -1442,25 +1487,30 @@ h2 {
     .about {
         display: flex;
         flex-direction: column;
-        gap: 1%;
-        height: 881px;
+        gap: 7%;
+        height: 1042px;
         justify-content: center;
         position: relative;
-        bottom: 65px;
+        bottom: 97px;
+        align-items: center;
     }
 
     .feature {
-        width: 300px;
-        height: 65px;
+       
+        height: 135px;
         display: flex;
     
-        position: relative;
-        left: 19%;
         font-size: 24px;
         top: 25;
     }
-
-
+.part1 img{
+    width: 100%;
+    height: 100%;
+}
+.part1{
+    width: 100%;
+    height: 426px;
+}
     .services {
         display: flex;
         flex-direction: column;
@@ -1472,10 +1522,10 @@ h2 {
 
     .service-para {
         width: 97%;
-        height: 255px;
+        height: 159px;
         line-height: 1.5;
         font-size: 20px;
-        padding: 2%;
+        padding: 0%;
     }
 
     .sec-images {
@@ -1506,19 +1556,20 @@ h2 {
         justify-content: center;
         position: relative;
         bottom: 0px;
-        height: 758px;
+        height: 924px;
         gap: 25px;
-        padding-top: 80%;
+        padding-top: 51%;
         /* padding-bottom: 15%; */
 
     }
 
     .services2-content {
         width: 100%;
-        height: 741px;
+        height: 713px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 2%;
     }
 
 
@@ -1526,23 +1577,26 @@ h2 {
         width: 450px;
         line-height: 1.5em;
         position: relative;
-        bottom: 51%;
+        bottom: 67%;
         color: white;
         left: 2%;
         font-size: 15px;
     }
 
     .body-frame {
-        width: 460px;
+        width: 100%;
         position: relative;
         left: 22px;
     }
-
+.quote-image{
+    position: relative;
+    left: 21px;
+}
     .frame-content {
         position: relative;
-        width: 404px;
-        bottom: 206px;
-        left: 11%;
+        width: 515px;
+        bottom: 187px;
+        left: 18%;
         line-height: 1.5;
         font-size: 13px;
     }
@@ -1550,7 +1604,7 @@ h2 {
     .prev {
         position: relative;
         top: 4%;
-        left: 177;
+        left: 327;
         font-size: 13px;
         width: 75px;
 
@@ -1559,8 +1613,8 @@ h2 {
 
     .next {
         position: relative;
-        left: 37%;
-        bottom: 152px;
+        left: 43%;
+        bottom: 124px;
         width: 100px;
         font-size: 13px;
     }
@@ -1574,7 +1628,7 @@ h2 {
         border-radius: 25px;
         color: white;
         position: relative;
-        left: 30%;
+        left: 36%;
         bottom: 84px;
     }
 
@@ -1583,12 +1637,12 @@ h2 {
     }
 
     .part1-image {
-        width: 550px;
+        width: 100%;
         background-image: url(../images/Rectangle\ 21.png);
     }
 
     .part2-image {
-        width: 550px;
+        width: 100%;
         position: relative;
         bottom: 277px;
     }
@@ -1686,9 +1740,9 @@ h2 {
     }
 
     .modal-content {
-        width: 521px;
+        width: 100%;
         position: relative;
-        right: 3%;
+        right: 0%;
     }
 
     .query {
@@ -1728,7 +1782,7 @@ h2 {
     }
 
     .query-para {
-        width: 234px;
+        width: 100%;
         position: relative;
         left: 13;
     }
@@ -1736,7 +1790,7 @@ h2 {
     .name input {
         border: 2px solid black;
         border-radius: 5px;
-        width: 215px;
+        width: 394px;
         height: 35px;
     }
 
@@ -1748,7 +1802,7 @@ h2 {
     .mail-mob input {
         border: 2px solid black;
         border-radius: 5px;
-        width: 97px;
+        width: 189px;
         height: 35px;
     }
 
@@ -1756,7 +1810,7 @@ h2 {
         border: 2px solid black;
         border-radius: 5px;
         height: 130px;
-        width: 215px;
+        width: 394px;
     }
 
     
@@ -1785,14 +1839,15 @@ h2 {
        position: absolute;
         background-color: #1A2B56;
         width: 150px;
-        height:169px;
-        right: 10;
+        height:138px;
+        left: 65%;
         align-items: center;
         list-style: none;
         /* padding-left: 35%; */
         padding-right: 28%;
-        bottom: 101px;
-        padding-top: 15px;
+        /* bottom: 101px; */
+        top: 39px;
+        padding-top: 8px;
         
         
 
