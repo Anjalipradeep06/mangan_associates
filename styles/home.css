@@ -1621,3 +1621,22 @@ top: 151;
     
 
 }
+
+@media screen and (max-width: 1400px) {
+    
+.feature {
+     width: 925px;
+    height: 101px;
+    display: flex;
+    padding-bottom: 5%;
+    gap: 10px;
+    position: relative;
+    padding: 4%;
+    font-size: 36px;
+    
+    font-family: poppins-extralight;
+
+}
+
+    
+}
