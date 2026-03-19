@@ -186,8 +186,8 @@ hr {
 }
 
 .feature {
-    width: 925px;
-    height: 63px;
+    max-width: 55%;
+    height: 119px;
     display: flex;
     padding-bottom: 5%;
     gap: 10px;
@@ -575,6 +575,7 @@ div.icons {
     position: relative;
     bottom: 28;
     left: 124%;
+    width: 25px;
 }
 
 .logo-arrow1 {
@@ -1863,4 +1864,9 @@ h2 {
 
 
 
+}
+
+@media screen and (max-width: 1400px) {
+
+    
 }
