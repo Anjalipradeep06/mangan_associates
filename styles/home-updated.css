@@ -29,13 +29,10 @@
     src: url(../fonts/noto-serif-display/NotoSerifDisplay[wdth\,wght].ttf);
 }
 
-.outer {
-    max-width: 1920px;
-  width: 100%;
 
-}
 .main-container {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     margin: 0px auto;
 }
 
