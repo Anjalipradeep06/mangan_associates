@@ -165,7 +165,7 @@ hr {
 
 .feature {
     width: 925px;
-    height: 101px;
+    height: 63px;
     display: flex;
     padding-bottom: 5%;
     gap: 10px;
@@ -544,7 +544,7 @@ div.icons {
     position: relative;
     bottom: 26;
     left: 117%;
-    width: 100%;
+    
 }
 
 .logo-arrow1 {
@@ -1620,23 +1620,4 @@ top: 151;
     }
     
 
-}
-
-@media screen and (max-width: 1400px) {
-    
-.feature {
-     width: 925px;
-    height: 101px;
-    display: flex;
-    padding-bottom: 5%;
-    gap: 10px;
-    position: relative;
-    padding: 4%;
-    font-size: 36px;
-    
-    font-family: poppins-extralight;
-
-}
-
-    
 }
