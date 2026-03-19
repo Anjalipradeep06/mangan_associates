@@ -28,9 +28,14 @@
     font-family: noto-serif;
     src: url(../fonts/noto-serif-display/NotoSerifDisplay[wdth\,wght].ttf);
 }
-.main-container {
+
+.outer {
     max-width: 1920px;
-    width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.main-container {
+    width: 1920px;
     margin: 0px auto;
 }
 
