@@ -31,7 +31,8 @@
 
 
 .main-container {
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -764,7 +765,8 @@ h2 {
 
 @media screen and (max-width: 922px) {
     .main-container {
-        width: 921px;
+        max-width:  921px;
+        width: 100%;
         margin: 0px auto;
     }
 
