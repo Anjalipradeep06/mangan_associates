@@ -29,8 +29,7 @@
     src: url(../fonts/noto-serif-display/NotoSerifDisplay[wdth\,wght].ttf);
 }
 .main-container {
-    max-width: 1920px;
-    width: 100%;
+    width: 1920px;
     margin: 0px auto;
 }
 
@@ -852,8 +851,7 @@ h2 {
   
 
 .main-container {
-    max-width:  921px;
-        width: 100%;
+    width: 920px;
     margin: 0px auto;
 }
 
